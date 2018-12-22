@@ -8,13 +8,16 @@ import json
 
 class ChaostoolkitAction(Action):
 
-def run(sub_command):
-    full_cmd = ['chaos'] + ['--no-version-check'] + sub_command.split(' ')
-    process = subprocess.Popen(full_cmd,
-                               stdout=subprocess.PIPE,
-                               stderr=subprocess.PIPE)
-    stdout, stderr = process.communicate()
+    def run(self, **kwargs):
+        sub_command = kwargs['sub_command']
+#        full_cmd = ['chaos'] + sub_command.split(' ')
+        full_cmd = ['chaos'] + ['--version']
+        process = subprocess.Popen(full_cmd,
+                                   stdout=subprocess.PIPE,
+                                   stderr=subprocess.PIPE)
+        stdout, stderr = process.communicate()
+        print(full_cmd)
 #    return_code = process.poll()
-    if stderr:
-        output = stderr
-    return (output.decode('utf-8')
+        if stderr:
+            output = stderr
+        return (output.decode('utf-8'))
