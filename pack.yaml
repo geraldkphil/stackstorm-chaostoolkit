@@ -1,0 +1,10 @@
+---
+ref: chaostoolkit
+name: chaostoolkit
+description: StackStorm integration pack for Chaotoolkit
+keywords:
+    - chaostoolkit
+    - chaos engineering
+version: 0.0.1
+author: Martez Reed
+email: martez.reed@greenreedtech.com
