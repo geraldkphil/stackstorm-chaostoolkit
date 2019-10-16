@@ -1,0 +1,10 @@
+---
+description: "Run experiment"
+enabled: true
+name: run_experiment
+pack: chaostoolkit
+runner_type: python-script
+entry_point: run_experiment.py
+parameters:
+  experiment:
+    type: string
