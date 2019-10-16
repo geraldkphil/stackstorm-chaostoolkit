@@ -1,2 +1,2 @@
-logzero
+logzero>=1.5.0
 chaostoolkit-lib>=1.6.0
