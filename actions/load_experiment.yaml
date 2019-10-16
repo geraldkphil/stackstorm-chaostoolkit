@@ -1,0 +1,10 @@
+---
+description: "Load experiment"
+enabled: true
+name: load_experiment
+pack: chaostoolkit
+runner_type: python-script
+entry_point: load_experiment.py
+parameters:
+  path:
+    type: string
