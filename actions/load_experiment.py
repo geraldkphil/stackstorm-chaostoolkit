@@ -2,7 +2,7 @@
 from chaoslib.loader import load_experiment
 from st2common.runners.base_action import Action
 import six
-
+import chaoslib
 
 class LoadExperiment(Action):
 
