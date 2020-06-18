@@ -1,0 +1,13 @@
+---
+description: "Uninstall extension"
+enabled: true
+name: uninstall_extension
+pack: chaostoolkit
+runner_type: python-script
+entry_point: uninstall_extension.py
+parameters:
+    extension:
+        type: string
+        description: "The name of the extension to uninstall"
+        required: true
+        position: 0

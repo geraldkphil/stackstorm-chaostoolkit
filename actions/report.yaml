@@ -1,13 +1,14 @@
 ---
-description: "Run experiment"
+description: "Load experiment"
 enabled: true
-name: run_experiment
+name: load_experiment
 pack: chaostoolkit
 runner_type: python-script
-entry_point: run_experiment.py
+entry_point: load_experiment.py
 parameters:
   path:
     type: string
     description: "The system path of the experiment"
     required: true
     position: 0
+  format:

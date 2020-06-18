@@ -1,7 +1,7 @@
 ---
 ref: chaostoolkit
 name: chaostoolkit
-description: StackStorm integration pack for Chaotoolkit
+description: StackStorm integration pack for Chaostoolkit
 keywords:
     - chaostoolkit
     - chaos engineering

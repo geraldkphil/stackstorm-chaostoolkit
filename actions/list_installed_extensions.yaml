@@ -1,0 +1,7 @@
+---
+description: "List the installed chaostoolkit extensions"
+enabled: true
+name: list_installed_extensions
+pack: chaostoolkit
+runner_type: python-script
+entry_point: list_installed_extensions.py

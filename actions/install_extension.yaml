@@ -1,0 +1,13 @@
+---
+description: "Install extension"
+enabled: true
+name: install_extension
+pack: chaostoolkit
+runner_type: python-script
+entry_point: install_extension.py
+parameters:
+    extension:
+        type: string
+        description: "The name of the extension to install"
+        required: true
+        position: 0

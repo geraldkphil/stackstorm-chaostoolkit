@@ -8,3 +8,6 @@ entry_point: load_experiment.py
 parameters:
   path:
     type: string
+    description: "The system path of the experiment"
+    required: true
+    position: 0
