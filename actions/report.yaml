@@ -11,4 +11,3 @@ parameters:
     description: "The system path of the experiment"
     required: true
     position: 0
-  format:
