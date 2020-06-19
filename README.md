@@ -29,9 +29,7 @@ _Load experiment_
 
 | Parameter | Type | Required | Secret | Description |
 |---|---|---|---|---|
-
 | `path` | string | True | default | _The system path of the experiment_ |
-| `format` | n/a | default | default | _Unavailable_ |
 
 
 ### load_experiment
@@ -39,7 +37,6 @@ _Load experiment_
 
 | Parameter | Type | Required | Secret | Description |
 |---|---|---|---|---|
-
 | `path` | string | True | default | _The system path of the experiment_ |
 
 
@@ -48,7 +45,6 @@ _Run discovery_
 
 | Parameter | Type | Required | Secret | Description |
 |---|---|---|---|---|
-
 | `extension` | string | True | default | _The name of the extension to install_ |
 
 
@@ -57,7 +53,6 @@ _Uninstall extension_
 
 | Parameter | Type | Required | Secret | Description |
 |---|---|---|---|---|
-
 | `extension` | string | True | default | _The name of the extension to uninstall_ |
 
 
@@ -66,7 +61,6 @@ _Run experiment_
 
 | Parameter | Type | Required | Secret | Description |
 |---|---|---|---|---|
-
 | `path` | string | True | default | _The system path of the experiment_ |
 
 
@@ -82,12 +76,7 @@ _Install extension_
 
 | Parameter | Type | Required | Secret | Description |
 |---|---|---|---|---|
-
 | `extension` | string | True | default | _The name of the extension to install_ |
-
-
-
-
 
 ## Sensors
 
