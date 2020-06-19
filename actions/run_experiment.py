@@ -4,7 +4,7 @@ from chaoslib.loader import load_experiment
 from st2common.runners.base_action import Action
 
 
-class LoadExperiment(Action):
+class RunExperiment(Action):
 
     def run(self, path):
         experiment = load_experiment(path)
